@@ -1,5 +1,12 @@
 # redux-action-tree (BETA)
-Inspired by the [Cerebral](http://www.cerebraljs.com) signals, a behaviour tree like implementation of actions for complex state changes.
+Inspired by the [Cerebral 1.x](http://www.cerebraljs.com) signals, a behaviour tree like implementation of actions for complex state changes.
+
+### Note about Cerebral 2
+In Cerebral 2 action-tree has evolved into
+[function-tree](https://github.com/cerebral/cerebral/tree/master/packages/function-tree#readme)
+which contains now a Redux Provider.
+For more information take a look at the article
+[The case for function-tree](http://www.christianalfoni.com/articles/2016_09_11_The-case-for-function-tree).
 
 ### What are these Cerebral signals conceptually?
 With [Redux](https://github.com/reactjs/redux) you typically think of actions and action creators. Action creators are like commands, they tell your app what to do. For example when your application mounts you would trigger an action creator saying: "getInitialData". With signals you do not let your UI (or other events) command your application logic, they only tell your application what happened. This also aligns with the concept of keeping your UI as dumb as possible.
