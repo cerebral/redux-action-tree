@@ -1,5 +1,5 @@
 # redux-action-tree (BETA)
-Inspired by the [Cerebral 1.x]http://cerebral-website.herokuapp.com) signals, a behaviour tree like implementation of actions for complex state changes.
+Inspired by the [Cerebral 1.x](http://cerebral-website.herokuapp.com) signals, a behaviour tree like implementation of actions for complex state changes.
 
 ### Note about Cerebral 2
 In Cerebral 2 action-tree has evolved into
