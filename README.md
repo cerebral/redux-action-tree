@@ -3,7 +3,7 @@ Inspired by the [Cerebral 1.x]http://cerebral-website.herokuapp.com) signals, a 
 
 ### Note about Cerebral 2
 In Cerebral 2 action-tree has evolved into
-[function-tree](https://github.com/cerebral/cerebral/tree/master/packages/function-tree#readme)
+[function-tree](https://github.com/cerebral/cerebral/tree/master/packages/node_modules/function-tree#readme)
 which contains now a Redux Provider.
 For more information take a look at the article
 [The case for function-tree](http://www.christianalfoni.com/articles/2016_09_11_The-case-for-function-tree).
